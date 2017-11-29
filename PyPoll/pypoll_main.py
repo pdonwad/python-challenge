@@ -77,7 +77,7 @@ try:
 	#Close File
 	fileWriter.close()
 except IOError:
-		print("Error: Sorry "+fileName+ "  does not appear to exist.")
+		print("Error: Sorry "+fileName+ "  does not exist.")
 
 
 
