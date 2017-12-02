@@ -61,7 +61,7 @@ try:
 
 	#open file in write mode
 	fileWriter=open(fileWritePath,"w")
-	#Write Contents
+	#Write Contents. \n will write each result on new line.
 	fileWriter.write("Election Results\n")
 	fileWriter.write("--------------------------------\n")
 	fileWriter.writelines("Total Votes: "+str(totalVotes)+"\n")
