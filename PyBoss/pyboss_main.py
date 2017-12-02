@@ -7,7 +7,7 @@ import datetime
 abbreState=""
 #importing directory for state abbreviations
 
-from us_state_abbrev import us_state_abbrev
+from us_state_abbreviations import us_state_abbrev
 try:
 	fileName=input("Enter the csv File Name::")
 	#set path for  csv file
@@ -55,7 +55,7 @@ try:
 	print("Data written to "+newFile+"_modified.csv Successfully")
 	csvfile.close()
 except IOError:
-		print("Error: Sorry "+fileName+ "  does not appear to exist.")
+		print("Error: Sorry "+fileName+ "  Not Found! ")
 
 
 
